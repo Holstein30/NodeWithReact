@@ -7,6 +7,3 @@ module.exports = {
         'mongodb+srv://dbUser:hjI8yJfUVmkhq5qx@emaily-frw6s.mongodb.net/test?retryWrites=true&w=majority',
     cookieKey: 'akjsdflkjbvievmmmviekdsakdsjflkaj'
 };
-
-// for prod
-// mongodb+srv://dbProd:9BvZH29S1GxZWah3@cluster0-odgmw.mongodb.net/test?retryWrites=true&w=majority
