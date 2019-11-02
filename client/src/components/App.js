@@ -10,8 +10,8 @@ const App = () => {
     return (
         <div>
             <BrowserRouter>
-                <Header />
                 <div>
+                    <Header />
                     <Route path="/" exact component={Landing} />
                     <Route path="/surveys" exact component={Dashboard} />
                     <Route path="/surveys/new" component={SurveyNew} />
