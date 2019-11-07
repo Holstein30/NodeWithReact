@@ -1,7 +1,8 @@
-const reqireLogin = require('../middlewares/requireLogin');
+const requireLogin = require('../middlewares/requireLogin');
+const requireCredits = require('../middlewares/requireCredits');
 
 module.exports = app => {
-    app.post('/api/surveys', requireLogin, (req, res) => {
-        // check if enough credits
+    app.post('/api/surveys', requireLogin, requireCredits, (req, res) => {
+        // create survey
     });
 };
