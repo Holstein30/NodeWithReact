@@ -7,5 +7,7 @@ module.exports = {
         'mongodb+srv://dbUser:hjI8yJfUVmkhq5qx@emaily-frw6s.mongodb.net/test?retryWrites=true&w=majority',
     cookieKey: 'akjsdflkjbvievmmmviekdsakdsjflkaj',
     stripePublishableKey: 'pk_test_DdA3HbMVWkV3Beh8AUQo06gN00jcq53aqH',
-    stripeSecretKey: 'sk_test_pRcF3t0d3x0Wq2ytS87OSboD00x4pVVBcT'
+    stripeSecretKey: 'sk_test_pRcF3t0d3x0Wq2ytS87OSboD00x4pVVBcT',
+    sendGridKey:
+        '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'
 };
