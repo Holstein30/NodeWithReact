@@ -1,10 +1,11 @@
 // Survey Field
 import React from 'react';
 
-export default () => {
+export default ({ input, label }) => {
     return (
         <div>
-            <input />
+            <label>{label}</label>
+            <input {...input} />
         </div>
     );
 };
